@@ -68,9 +68,10 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify -->
 # DAILY TASK MANAGER
 This app was created, when I started learning the basics of React. Easy to use Task Manger App. This app uses the concepts like
+
     1. Functional Components
-    1. Class based Components
-    1. Styling of Elements
-    1. Other basics of React...
+    2. Class based Components
+    3. Styling of Elements
+    4. Other basics of React...
 
 ![A screenshot of the working app](./public/scrnsht.png)
