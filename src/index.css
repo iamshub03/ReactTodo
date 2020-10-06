@@ -11,3 +11,75 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* -------------------------------------nav-bar styles----------------------------------------- */
+.nav-bar{
+  font-family: 'Piazzolla', serif;
+  background-color: #009933;
+  color: aliceblue;
+  padding: 1px;
+}
+
+.nav-bar ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-right: 40px;
+}
+
+/* ---------------------------------input-form---------------------------------------------------- */
+.input-form{
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  padding: 10px;
+}
+
+.input-form input{
+  width: 35%;
+  height: 1.2rem;
+}
+.input-form button{
+  margin-left: 10px ;
+  background-color:  #009933;
+  color: white;
+}
+
+.input-form button:hover{
+  font-size: 1.1rem;
+}
+
+/* ----------------------------------------task-card------------------------------------------------ */
+.task-card{
+  font-family: 'Piazzolla', serif;
+  display: flex;
+  background-color: #b3ffcc;
+  color: #222;
+  margin: 0px 30.5%;
+  padding: 10px;
+  margin-bottom:10px ;
+}
+
+.task-card labels, .task-card input{
+  font-size: 1.2rem;
+}
+
+.task-card button{
+  background-color: #ff6666;
+  position: absolute;
+  left: 65%;
+}
+
+.task-card button:hover{
+  background-color: red;
+  font-size: 1.1rem;
+}
+/* -------------------------------------quote----------------------------------------- */
+.quote{
+  text-align: center;
+  font-family: 'Sansita Swashed', cursive;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
