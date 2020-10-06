@@ -73,4 +73,4 @@ This app was created, when I started learning the basics of React. Easy to use T
     1. Styling of Elements
     1. Other basics of React...
 
-![A screenshot of the working app](public\scrnsht.png)
+![A screenshot of the working app](./public/scrnsht.png)
