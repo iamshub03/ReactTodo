@@ -83,3 +83,9 @@ code {
   font-size: 1.2rem;
   margin-bottom: 20px;
 }
+
+/* ---------------------------------clear-btn----------- */
+#clear-btn:hover{
+  color: black;
+  cursor: pointer;
+}

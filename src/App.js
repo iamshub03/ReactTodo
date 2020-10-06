@@ -47,6 +47,10 @@ class App extends Component{
             this.onAddHandler();
         }
     }
+
+    clearHandler = () => {
+        this.setState({tasks: []})
+    }
     render(){
         const TaskCard = this.state.tasks.map(task => {
             return <Taskcard 
@@ -58,7 +62,7 @@ class App extends Component{
         });
         return (
             <>
-                <Navbar />
+                <Navbar clearBtn={this.clearHandler}/>
                 <Input addBtn={this.onAddHandler} keyPress={this.enterKeyHandler}/>
                 <Quote />
                 {TaskCard}
